@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="ff.css">
+</head>
+<body>
+    
+    <div class="container">
+         <nav>
+            <h>Mingma</h>
+        <ul>
+                
+                <li><a href="file:///C:/Users/Acer/Desktop/website/Education.html">Education</a></li>
+                <li><a href="file:///C:/Users/Acer/Desktop/website/hobbies.html">Hobbies</a></li>
+                <li><a href="file:///C:/Users/Acer/Desktop/website/skills.html">Skills</a></li>
+                <li><a href="file:///C:/Users/Acer/Desktop/website/reference.html">Reference</a></li>
+                <li><a href="file:///C:/Users/Acer/Desktop/website/contact.html">Contact</a></li>
+            </ul>
+            <button type="button" onclick="toggleBtn()" id="btn">Click</button><span></span></button> 
+            </nav>
+            
+            <div class="image">
+                <img src="gg.jpg" class="img" id="imgg">
+            </div>
+             <div class="text">
+                <h1>I'm <br>Mingma Yangee Sherpa</h1><br><br>
+                <p> Student<br><br>
+                    - An enthusiastic student currently studying in<br> Herald College Kathmandu.</p>
+             </div>
+
+
+        </div>
+
+        <script>
+            var btn= document.getElementById("btn");
+            var imgg= document.getElementById("imgg");
+            function toggleBtn(){
+                btn.classList.toggle("active");
+                imgg.classList.toggle("on");
+            }
+        </script>
+           
+        
+    
+ 
+</body>
+</html>

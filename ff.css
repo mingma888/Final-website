@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+     padding: 0;
+    }
+
+    .container{
+     background: #1d2026;
+     min-height: 100vh;
+     width: 100%;
+     color: #dbd7d7;
+     position: relative;
+    }
+    
+    nav{
+        display: flex;
+        padding: 10px 5%;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    
+    nav h{
+        margin-top:0%;
+        margin-right: 20px;
+        color: whitesmoke;
+        text-align: left;
+        font-family:'Times New Roman', Times, serif;
+        text-shadow: 1px 1px 2px rgb(190, 93, 93), 0 0 50px blue, 0 0 5px rgb(145, 25, 99);
+    
+    }
+    nav ul{
+        flex: 1;
+        text-align: right;
+        
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 0 20px;
+        
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    nav ul li a:hover{
+        color:rgb(54, 74, 185)
+    }
+    button{
+        background: #efefef;
+        height: 30px;
+        width: 60px;
+        border-radius: 20px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        transition: background 0.5s, margin-left 0.5s;
+        }
+        button span{
+            display: block;
+            background:#999;
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            margin-left:2px;
+            transition: background 0.5s;
+        }
+    
+    .image{
+        position:absolute;
+        top: 70px;
+        bottom: 30px;
+        left: 35px;
+        height: 200px;
+        width: 200px;
+       
+    }
+    .img{
+        width: 210%;
+        border-style:dashed;
+        opacity: 0;
+        transition: opacity o.5s;
+    }
+  
+     .text{
+        max-width: 500px;
+        margin-top: 7%;
+        margin-left: 40%;
+     }
+     .text h1{
+        font-size:50px;
+        font-weight: 200;
+        font-family:'Times New Roman', Times, serif;
+        text-shadow: 1px 1px 2px rgb(190, 93, 93), 0 0 30px blue, 0 0 5px rgb(145, 25, 99);
+    
+     }
+     .text p{
+        font-size: 20px;
+        font-family:'Times New Roman', Times, serif;
+        text-shadow:1px 1px 2px rgb(54, 74, 185), 0 0 22px royalblue;
+        
+     }
+     .active{
+        background:rgb(84, 133, 183);
+
+     }
+     .active span{
+        margin-left: 31px;
+        background: #fff;
+     }
+    .on{
+        opacity: 1;
+    }
+        
+    @media screen and (min-width:300px) {
+        .text{
+            font-size: 30px;
+            line-height: 40px;
+       
+        
+        }
+        .container{
+            max width:600px
+            height:auto;
+        }
+    }
+     
